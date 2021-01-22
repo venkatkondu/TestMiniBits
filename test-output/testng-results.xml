@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel Suite" duration-ms="191805" started-at="2021-01-22T17:09:13 IST" finished-at="2021-01-22T17:12:25 IST">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="191805" started-at="2021-01-22T17:09:13 IST" finished-at="2021-01-22T17:12:25 IST">
+      <class name="com.tmb.test.TestOne">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="beforeSuite" is-config="true" duration-ms="18" started-at="2021-01-22T17:09:13 IST" finished-at="2021-01-22T17:09:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-01-22T17:09:13 IST" finished-at="2021-01-22T17:09:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-01-22T17:09:13 IST" finished-at="2021-01-22T17:09:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="beforeMethod" is-config="true" duration-ms="26166" started-at="2021-01-22T17:09:13 IST" finished-at="2021-01-22T17:09:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test001()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="test001" duration-ms="62" started-at="2021-01-22T17:09:40 IST" finished-at="2021-01-22T17:09:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="afterMethod" is-config="true" duration-ms="5394" started-at="2021-01-22T17:09:40 IST" finished-at="2021-01-22T17:09:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="beforeMethod" is-config="true" duration-ms="11883" started-at="2021-01-22T17:09:45 IST" finished-at="2021-01-22T17:09:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test002()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="test002" duration-ms="11" started-at="2021-01-22T17:09:57 IST" finished-at="2021-01-22T17:09:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test002 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="afterMethod" is-config="true" duration-ms="68602" started-at="2021-01-22T17:09:57 IST" finished-at="2021-01-22T17:11:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="beforeMethod" is-config="true" duration-ms="12112" started-at="2021-01-22T17:11:06 IST" finished-at="2021-01-22T17:11:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test003()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="test003" duration-ms="13" started-at="2021-01-22T17:11:18 IST" finished-at="2021-01-22T17:11:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test003 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="afterMethod" is-config="true" duration-ms="67500" started-at="2021-01-22T17:11:18 IST" finished-at="2021-01-22T17:12:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-01-22T17:12:25 IST" finished-at="2021-01-22T17:12:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-01-22T17:12:25 IST" finished-at="2021-01-22T17:12:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.tmb.test.TestOne@64729b1e]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-01-22T17:12:25 IST" finished-at="2021-01-22T17:12:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.tmb.test.TestOne -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Parallel Suite -->
+</testng-results>

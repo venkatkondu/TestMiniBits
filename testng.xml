@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel Suite" thread-count="2" verbose="3" parallel="none">
+  <test name="Chrome Test">
+  <!--   <parameter name="browser" value="chrome"/> --> 
+  <!--  How to execute particuler smoke and sanity ,regression , functional test cases  -->
+    <classes>
+      <class name="com.tmb.test.TestOne"/>
+    <!--   <class name="com.tmb.test.TestTwo"/> -->
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
